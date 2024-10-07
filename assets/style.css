@@ -1,0 +1,83 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: sans-serif;
+}
+.head {
+  text-align: center;
+  background-color: rgb(128, 128, 128, 0.6);
+  padding-bottom: 20px;
+}
+.photo {
+  display: inline-grid;
+  margin: 15px;
+}
+.photo i {
+  font-size: 30px;
+  color: #0000ff;
+}
+.photo img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+.m {
+  padding: 10px;
+}
+
+.content {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+section div {
+  display: flex;
+  gap: 5px;
+}
+
+.contact-info,
+.social-icons,
+.experience-info,
+.education-info,
+.skills-info,
+.interests-info {
+  display: flex;
+  padding: 12px;
+  gap: 6px;
+}
+.social-icons {
+  gap: 20px;
+}
+.contact-info div,
+.experience-info p,
+.education-info p,
+.skills-info p,
+.interests-info p {
+  background-color: #0000ff;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+}
+.contact-info div a {
+  text-decoration: none;
+  color: white;
+}
+.contact-info div i {
+  color: black;
+}
